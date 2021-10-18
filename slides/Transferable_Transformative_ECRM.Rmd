@@ -30,6 +30,7 @@ knitr::opts_chunk$set(
 library(fontawesome)
 library(tidyverse)
 library(xaringan)
+library(here)
 
 ```
 
@@ -60,10 +61,10 @@ style_duo(
 
 ```
 
-```{r}
+```{r, echo=FALSE}
 library(xaringanExtra)
 xaringanExtra::use_logo("NORMENT_LOGO_Utekst_SORT.png",
-                        width = "310px",
+                        width = "610px",
                         height = "90px",
                         position = xaringanExtra::css_position(bottom = "5px", left = "25px") 
   )
