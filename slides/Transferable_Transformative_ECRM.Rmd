@@ -1,9 +1,9 @@
 ---
 title: "Transferable Skills<br> that Transformed my Career:"
-subtitle: "From RN to R"  
+subtitle: "From RN to R-Ladies"  
 author: 
   - "&#x1F60E; Jonelle Villar"
-date: "ECRM is LIVE in Oslo! <br> November 26, 2021"
+date: "ECRM is LIVE in Oslo! Enjoy the day &#128640; <br> November 26, 2021"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -30,7 +30,7 @@ knitr::opts_chunk$set(
 library(fontawesome)
 library(tidyverse)
 library(xaringan)
-library(here)
+
 
 ```
 
@@ -64,9 +64,9 @@ style_duo(
 ```{r, echo=FALSE}
 library(xaringanExtra)
 xaringanExtra::use_logo("NORMENT_LOGO_Utekst_SORT.png",
-                        width = "610px",
+                        width = "210px",
                         height = "90px",
-                        position = xaringanExtra::css_position(bottom = "5px", left = "25px") 
+                        position = xaringanExtra::css_position(bottom = "15px", left = "30px") 
   )
 
 xaringanExtra::use_tile_view()
@@ -74,7 +74,44 @@ xaringanExtra::use_tile_view()
 xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
 
 ```
+---
+class: center, top
 
+background-image: url(slides/From_RN_2_R-Lady.jpg)  
+background-position: cover
+
+
+???
+Going from nursing to PhD student using R
+
+---
+Themes
+
+---
+
+
+
+
+
+---
+
+##  Check out R-Ladies on social media 
+
+- **Main webpage**:  http://rladies.org/<br>
+- **Twitter**
+    - R-Ladies Bergen:  @RLadiesBergen<br>
+    - R-Ladies Global:  @RLadiesGlobal<br>
+    
+- **Facebook:**           R-Ladies-Bergen<br>
+- Sign up on **Meetup**:  https://meetup.com/rladies-bergen/<br>
+- **Slack** workspace:
+    - `rladies-norway` *(send us an e-mail to get the invitation!)*
+    - `rladies-community` https://rladies-community-slack.herokuapp.com/
+
+- **YouTube**: https://www.youtube.com/c/RLadiesGlobal/Videos<br>
+
+
+---
 
 
 
@@ -91,6 +128,7 @@ background-size: 600px
 **Supervisor Prof. Stéphanie Le Hellard**<br><br>
 **Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
 **Colleagues in The Martens Group**<br><br><br>
+**NORMENT**<br><br>
 [`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
 ]
 
