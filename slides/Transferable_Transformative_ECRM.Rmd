@@ -30,7 +30,8 @@ knitr::opts_chunk$set(
 library(fontawesome)
 library(tidyverse)
 library(xaringan)
-
+library(here)
+here()
 
 ```
 
@@ -69,31 +70,42 @@ xaringanExtra::use_logo("NORMENT_LOGO_Utekst_SORT.png",
                         position = xaringanExtra::css_position(bottom = "15px", left = "30px") 
   )
 
-xaringanExtra::use_tile_view()
+xaringanExtra::use_tile_view() 
 
 xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
 
 ```
 ---
-class: center, top
+class: center, top, hide_logo
 
-background-image: url(slides/From_RN_2_R-Lady.jpg)  
-background-position: cover
+background-image: url(From_RN_2_R-Lady.jpg)
+background-position: 50% 50%
+background-size: 950px
 
 
 ???
 Going from nursing to PhD student using R
 
----
-Themes
-
----
-
-
 
 
 
 ---
+class: top left
+#Themes
+
+- Open
+- Communication
+- Empathy
+
+---
+
+class: top hide_logo
+
+
+
+---
+
+class: top hide_logo
 
 ##  Check out R-Ladies on social media 
 
@@ -112,15 +124,10 @@ Themes
 
 
 ---
-
-
-
----
-class: center, top
-
-background-image: url(slides/Martens_lab_2021.jpg)
+class: center top hide_logo
+background-image: url(Martens_lab_2021.jpg)
 background-position: 10% 70%, 20% 10%
-background-size: 600px
+background-size: 625px
 
 # Acknowledgements
 
@@ -132,28 +139,16 @@ background-size: 600px
 [`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
 ]
 
-<br/>
+
 
 ---
 
 
-## Typography
-
-Text can be **bold**, _italic_, ~~strikethrough~~, or `inline code`.
+<br/>
 
 [Link to another slide](#colors).
 
-### Lorem Ipsum
 
-Dolor imperdiet nostra sapien scelerisque praesent curae metus facilisis dignissim tortor. 
-Lacinia neque mollis nascetur neque urna velit bibendum. 
-Himenaeos suspendisse leo varius mus risus sagittis aliquet venenatis duis nec.
-
-- Dolor cubilia nostra nunc sodales
-
-- Consectetur aliquet mauris blandit
-
-- Ipsum dis nec porttitor urna sed
 
 ---
 name: colors
