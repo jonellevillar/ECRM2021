@@ -62,7 +62,7 @@ style_duo(
 
 ```
 
-```{r, echo=FALSE}
+```{r  echo=FALSE}
 library(xaringanExtra)
 xaringanExtra::use_logo("NORMENT_LOGO_Utekst_SORT.png",
                         width = "210px",
@@ -75,6 +75,7 @@ xaringanExtra::use_tile_view()
 xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
 
 ```
+
 ---
 class: center, top, hide_logo
 
@@ -100,6 +101,40 @@ class: top left
 ---
 
 class: top hide_logo
+
+background-image: url(2011a_Blu_Krakow.jpg)
+background-position: 25% 45%
+background-size: 600px
+
+.center[.footnote[Blu, Krakow, 2011]]
+
+.pull-right[Be open to your own experience]
+
+---
+
+class: top center hide_logo
+
+background-image: url(2012_OSGEMEOS_Boston.jpg)
+background-position: 25% 45%
+background-size: 720px
+
+.center[.footnote[OSGEMEOS, Boston, 2012]]
+
+.pull-right[Be open to the human experience]
+
+
+---
+class: top hide_logo
+
+background-image: url(2019a_Blu_Roma.jpg)
+background-position: 25% 45%
+background-size: 500px
+
+.center[.footnote[Blu, Rome, 2019]]
+
+.pull-right[Be open to technology]
+
+Be honest about healthy development 
 
 
 
