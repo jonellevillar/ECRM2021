@@ -36,7 +36,7 @@ here()
 ```
 
 
-```{r xaringan-themer, include=FALSE, warning=FALSE}
+```{r xaringan-themer, include=FALSE}
 library(xaringanthemer)
 dark_yellow <- "#EFBE43"
 light_yellow <- "#FDF7E9"
@@ -62,7 +62,7 @@ style_duo(
 
 ```
 
-```{r  echo=FALSE}
+```{r  include=FALSE }
 library(xaringanExtra)
 xaringanExtra::use_logo("NORMENT_LOGO_Utekst_SORT.png",
                         width = "210px",
@@ -76,7 +76,7 @@ xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
 
 ```
 
----
+
 class: center, top, hide_logo
 
 background-image: url(From_RN_2_R-Lady.jpg)
