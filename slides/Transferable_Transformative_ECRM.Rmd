@@ -6,7 +6,7 @@ author:
 date: "ECRM is LIVE in Oslo! Enjoy the day &#128640; <br> November 26, 2021"
 output:
   xaringan::moon_reader:
-    css: xaringan-themer.css
+    css: [xaringan-themer.css, yellow-dots.css, extra.css]
     nature:
       slideNumberFormat: "%current%"
       highlightStyle: github
@@ -99,11 +99,10 @@ class: top center hide_logo
 background-image: url(2011a_Blu_Krakow.jpg)
 background-size: 80%
 
-.palegrey[## Be open to your own experience]
+.light[## Be open to your own experience]
 
-
-.align[.large[.footnote[Blu, Krakow, 2011]]
-]
+.align[.large[.light[.footnote[Blu, Krakow, 2011]]
+]]
 
 ---
 
@@ -112,25 +111,37 @@ class: top center hide_logo
 background-image: url(2012_OSGEMEOS_Boston.jpg)
 background-size: contain
 
-##Be open to community experience
+.light[##Be open to community experience]
 
-.pull-right[.large[.footnote[OSGEMEOS, Boston, 2012]]
+.pull-right[.light[.footnote[OSGEMEOS, Boston, 2012]]
 ]
 
 ---
-class: top hide_logo
+class: top center hide_logo
 
 background-image: url(2019a_Blu_Roma.jpg)
 background-size: contain
 
-.align[.large[.footnote[Blu, Rome, 2019]]
+.align[.light[.footnote[Blu, Rome, 2019]]
 ]
 
 ##Be open to technology
 
+---
+
+class: top center hide_logo
+
+background-image: url(Tidyverse_session_Feb6_2020.jpeg)
+background-size: contain
 
 
 
+---
+
+class: top center hide_logo
+
+background-image: url(Schedule_feb-june2021.png)
+background-size: contain
 
 ---
 

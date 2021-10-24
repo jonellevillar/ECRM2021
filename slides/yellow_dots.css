@@ -11,4 +11,9 @@ li::before {
 #li::marker {
  # content: "• ";
  # color: #EFBE43;
-#}
+#
+  
+}
+.light {
+  color: white;
+}
