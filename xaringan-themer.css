@@ -258,3 +258,6 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 .smokewhite {
   color: "#f3f3f3";
 }
+.lggray {
+  color: "#eaeaea"
+}
