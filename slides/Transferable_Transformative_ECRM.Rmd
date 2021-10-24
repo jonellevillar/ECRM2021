@@ -42,13 +42,15 @@ dark_yellow <- "#EFBE43"
 light_yellow <- "#FDF7E9"
 gray <- "#333333"
 blue <- "#4466B0"
-white <- "#ffffff"
+whitesmoke <- "#f5f5f5"
+black <- 
 
 style_duo(
   # colors
   primary_color = light_yellow,
   secondary_color = dark_yellow,
   header_color = gray,
+  inverse_header_color = "whitesmoke",
   text_color = gray,
   code_inline_color = colorspace::lighten(gray),
   text_bold_color = colorspace::lighten(gray),
@@ -94,26 +96,26 @@ class: top left
 
 ---
 
-class: top center hide_logo
+class: bottom center hide_logo
 
 background-image: url(2011a_Blu_Krakow.jpg)
 background-size: 80%
 
-.light[## Be open to your own experience]
+## Be open to your own experience
 
-.align[.large[.light[.footnote[Blu, Krakow, 2011]]
-]]
+.pull-right[.large[.footnote[Blu, Krakow, 2011]]
+]
 
 ---
 
-class: top center hide_logo
+class: bottom center hide_logo
 
 background-image: url(2012_OSGEMEOS_Boston.jpg)
 background-size: contain
 
 .light[##Be open to community experience]
 
-.pull-right[.light[.footnote[OSGEMEOS, Boston, 2012]]
+.pull-right[.smokewhite[.footnote[OSGEMEOS, Boston, 2012]]
 ]
 
 ---
