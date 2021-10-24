@@ -66,6 +66,21 @@ style_duo(
 
 ```
 
+```{css extra.css, echo=FALSE}
+/* ---- extra.css ---- */
+.big {
+  font-size: 2em;
+  color: CornFlowerBlue;
+}
+
+.fade {
+  opacity: 0.66;
+}
+```
+
+
+
+
 ```{r  include=FALSE }
 library(xaringanExtra)
 xaringanExtra::use_logo("NORMENT_LOGO_Utekst_SORT.png",
