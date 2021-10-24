@@ -42,6 +42,7 @@ dark_yellow <- "#EFBE43"
 light_yellow <- "#FDF7E9"
 gray <- "#333333"
 blue <- "#4466B0"
+white <- "#ffffff"
 
 style_duo(
   # colors
@@ -83,58 +84,51 @@ background-image: url(From_RN_2_R-Lady.jpg)
 background-position: 50% 50%
 background-size: 950px
 
-
-???
-Going from nursing to PhD student using R
-
-
-
-
 ---
 class: top left
-#Themes
+#Skill sets - Themes
 
-- Open
-- Communication
-- Empathy
+- Openness to my own experience
+- Openness to people 
+- Openness to technology 
 
 ---
 
-class: top hide_logo
+class: top center hide_logo
 
 background-image: url(2011a_Blu_Krakow.jpg)
-background-position: 25% 45%
-background-size: 600px
+background-size: 80%
 
-.center[.footnote[Blu, Krakow, 2011]]
+.palegrey[## Be open to your own experience]
 
-.pull-right[Be open to your own experience]
+
+.align[.large[.footnote[Blu, Krakow, 2011]]
+]
 
 ---
 
 class: top center hide_logo
 
 background-image: url(2012_OSGEMEOS_Boston.jpg)
-background-position: 25% 45%
-background-size: 720px
+background-size: contain
 
-.center[.footnote[OSGEMEOS, Boston, 2012]]
+##Be open to community experience
 
-.pull-right[Be open to the human experience]
-
+.pull-right[.large[.footnote[OSGEMEOS, Boston, 2012]]
+]
 
 ---
 class: top hide_logo
 
 background-image: url(2019a_Blu_Roma.jpg)
-background-position: 25% 45%
-background-size: 500px
+background-size: contain
 
-.center[.footnote[Blu, Rome, 2019]]
+.align[.large[.footnote[Blu, Rome, 2019]]
+]
 
-.pull-right[Be open to technology]
+##Be open to technology
 
-Be honest about healthy development 
+
 
 
 
