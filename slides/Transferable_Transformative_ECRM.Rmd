@@ -43,19 +43,20 @@ light_yellow <- "#FDF7E9"
 gray <- "#333333"
 blue <- "#4466B0"
 whitesmoke <- "#f5f5f5"
-black <- 
+
 
 style_duo(
   # colors
   primary_color = light_yellow,
   secondary_color = dark_yellow,
   header_color = gray,
-  inverse_header_color = "whitesmoke",
+  inverse_header_color = light_yellow,
   text_color = gray,
   code_inline_color = colorspace::lighten(gray),
   text_bold_color = colorspace::lighten(gray),
   link_color = blue,
   title_slide_text_color = blue,
+  inverse_background_color = light_yellow,
 
   # fonts
   header_font_google = google_font("Martel", "300", "400"),
@@ -108,12 +109,12 @@ background-size: 80%
 
 ---
 
-class: bottom center hide_logo
+class: bottom center inverse hide_logo
 
 background-image: url(2012_OSGEMEOS_Boston.jpg)
 background-size: contain
 
-.light[##Be open to community experience]
+##Be open to community experience
 
 .pull-right[.smokewhite[.footnote[OSGEMEOS, Boston, 2012]]
 ]
