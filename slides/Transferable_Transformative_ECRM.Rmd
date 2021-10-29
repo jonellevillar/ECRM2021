@@ -66,20 +66,6 @@ style_duo(
 
 ```
 
-```{css extra.css, echo=FALSE}
-/* ---- extra.css ---- */
-.big {
-  font-size: 2em;
-  color: CornFlowerBlue;
-}
-
-.fade {
-  opacity: 0.66;
-}
-```
-
-
-
 
 ```{r  include=FALSE }
 library(xaringanExtra)
@@ -104,11 +90,18 @@ background-size: 950px
 
 ---
 class: top left
-#Skill sets - Themes
+#Areas of skill set development 
 
-- Openness to my own experience
-- Openness to people 
-- Openness to technology 
+--
+
+- ###Attentiveness to your personal experience
+
+--
+- ###Attentiveness to community needs
+
+--
+
+- ###Attentiveness to beneficial technology
 
 ---
 
@@ -117,10 +110,22 @@ class: bottom center hide_logo
 background-image: url(2011a_Blu_Krakow.jpg)
 background-size: 80%
 
-## Be open to your own experience
+##Be open to your own experience
 
 .pull-right[.large[.footnote[Blu, Krakow, 2011]]
 ]
+
+
+
+---
+
+class: top center 
+
+background-image: url(Siemens_Telex.jpeg)
+background-size: 35%
+
+###Telex operator in foreign exchange market <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
+.align[###San Francisco, Madrid, Copenhagen]
 
 ---
 
@@ -129,27 +134,69 @@ class: top right hide_logo
 background-image: url(2012_OSGEMEOS_Boston.jpg)
 background-size: contain
 
-##Be open to community experience
+##Be open to community 
 
-.pull-left[.lggray[.footnote[OSGEMEOS, Boston, 2012]]
+.pull-left[.light[.footnote[OSGEMEOS, Boston, 2012]]
 ]
 
----
-class: top center hide_logo
 
-background-image: url(2019a_Blu_Roma.jpg)
+---
+
+class: top hide_logo
+
+background-image: url(Hawkings.png)
+background-size: cover
+
+---
+class: top right hide_logo
+background-image: url(hugh-laurie.jpg)
+background-size: %40
+
+##Whose responsibility?
+---
+
+class: top right hide_logo
+
+background-image: url(2019b_Blu_Roma.jpg)
 background-size: contain
 
-.align[.light[.footnote[Blu, Rome, 2019]]
+.center[.light[.footnote[Blu, Rome, 2019]]
 ]
 
 ##Be open to technology
 
 ---
 
+class: bottom right hide_logo
+
+background-image: url(newtools_old_ways.jpg)
+background-size: contain
+
+
+##New tools - same methods?
+
+---
+
 class: top center hide_logo
 
-background-image: url(Tidyverse_session_Feb6_2020.jpeg)
+background-image: url(R-LadiesGlobal.jpg)
+background-size: contain
+
+
+
+---
+
+class: top center hide_logo
+
+background-image: url(Jan15_Shazia-1.jpeg)
+background-size: contain
+
+
+---  
+
+class: top center hide_logo
+
+background-image: url(useR!2021.jpg)
 background-size: contain
 
 
@@ -197,62 +244,14 @@ background-size: 625px
 [`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
 ]
 
-
-
----
-
-
 <br/>
 
-[Link to another slide](#colors).
-
-
-
----
-name: colors
-
-## Colors
-
-.left-column[
-Text color
-
-[Link Color](#3)
-
-**Bold Color**
-
-_Italic Color_
-
-`Inline Code`
-]
-
-.right-column[
-Lorem ipsum dolor sit amet, [consectetur adipiscing elit (link)](#3), 
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-Erat nam at lectus urna.
-Pellentesque elit ullamcorper **dignissim cras tincidunt (bold)** lobortis feugiat. 
-_Eros donec ac odio tempor_ orci dapibus ultrices. 
-Id porta nibh venenatis cras sed felis eget velit aliquet.
-Aliquam id diam maecenas ultricies mi.
-Enim sit amet 
-`code_color("inline")`
-venenatis urna cursus eget nunc scelerisque viverra.
-]
-
 ---
 
-# Big Topic or Inverse Slides `#`
 
-## Slide Headings `##`
 
-### Sub-slide Headings `###`
 
-#### Bold Call-Out `####`
 
-This is a normal paragraph text. Only use header levels 1-4.
-
-##### Possible, but not recommended `#####`
-
-###### Definitely don't use h6 `######`
 
 ---
 
@@ -274,83 +273,10 @@ Amet egestas neque tempor fermentum proin massa!
 Dolor elementum fermentum pharetra lectus arcu pulvinar.
 ]
 
----
-class: inverse center middle
 
-# Topic Changing Interstitial
-
---
-
-```
-class: inverse center middle
-```
-
----
-layout: true
-
-## Blocks
 
 ---
 
-### Blockquote
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
----
-
-### Code Blocks
-
-#### R Code
-
-```{r eval=FALSE}
-ggplot(gapminder) +
-  aes(x = gdpPercap, y = lifeExp, size = pop, color = country) +
-  geom_point() +
-  facet_wrap(~year)
-```
-
-#### JavaScript
-
-```js
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
----
-
-### More R Code
-
-```{r eval=FALSE}
-dplyr::starwars %>% dplyr::slice_sample(n = 4)
-```
-
----
-
-```{r message=TRUE, eval=requireNamespace("cli", quietly = TRUE)}
-cli::cli_alert_success("It worked!")
-```
-
---
-
-```{r message=TRUE}
-message("Just a friendly message")
-```
-
---
-
-```{r warning=TRUE}
-warning("This could be bad...")
-```
-
---
-
-```{r error=TRUE}
-stop("I hope you're sitting down for this")
-```
 
 
 ---
