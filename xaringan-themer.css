@@ -50,8 +50,8 @@
   --text-bold-color: #454545;
   --code-highlight-color: rgba(255,255,0,0.5);
   --inverse-text-color: #FDF7E9;
-  --inverse-background-color: #EFBE43;
-  --inverse-header-color: #FDF7E9;
+  --inverse-background-color: #FDF7E9;
+  --inverse-header-color: ##d6d6d6;
   --inverse-link-color: #4466B0;
   --title-slide-background-color: #FDF7E9;
   --title-slide-text-color: #4466B0;
@@ -252,12 +252,4 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 .bg-secondary {
   background-color: var(--secondary);
 }
-.light {
-  color: "#f5f5f5";
-}
-.smokewhite {
-  color: "#f3f3f3";
-}
-.lggray {
-  color: "#eaeaea"
-}
+
