@@ -50,7 +50,7 @@ style_duo(
   primary_color = light_yellow,
   secondary_color = dark_yellow,
   header_color = gray,
-  inverse_header_color = lightgray,
+  inverse_header_color = "##d6d6d6",
   text_color = gray,
   code_inline_color = colorspace::lighten(gray),
   text_bold_color = colorspace::lighten(gray),
@@ -70,19 +70,16 @@ style_duo(
 ```{r  include=FALSE }
 library(xaringanExtra)
 xaringanExtra::use_logo("NORMENT_LOGO_Utekst_SORT.png",
-                        width = "210px",
-                        height = "90px",
-                        position = xaringanExtra::css_position(bottom = "15px", left = "30px") 
-  )
+                        width = "50px",
+                        height = "25px",
+                        position = xaringanExtra::css_position(bottom = "15px", right = "25px"))
 
 xaringanExtra::use_tile_view() 
-
-xaringanExtra::use_progress_bar(color = "#0051BA", location = "top")
 
 ```
 
 
-class: center, top, hide_logo
+class: center top
 
 background-image: url(From_RN_2_R-Lady.jpg)
 background-position: 50% 50%
@@ -112,7 +109,9 @@ background-size: 80%
 
 ##Be open to your own experience
 
-.pull-right[.large[.footnote[Blu, Krakow, 2011]]
+
+
+.pull-left[.gray[.footnote[Blu, Krakow, 2011]]
 ]
 
 
@@ -151,6 +150,7 @@ background-size: cover
 class: top right hide_logo
 background-image: url(hugh-laurie.jpg)
 background-size: %40
+background-position:
 
 ##Whose responsibility?
 ---
@@ -160,7 +160,7 @@ class: top right hide_logo
 background-image: url(2019b_Blu_Roma.jpg)
 background-size: contain
 
-.center[.light[.footnote[Blu, Rome, 2019]]
+.center[.gray[.footnote[Blu, Rome, 2019]]
 ]
 
 ##Be open to technology
@@ -182,24 +182,19 @@ class: top center hide_logo
 background-image: url(R-LadiesGlobal.jpg)
 background-size: contain
 
-
-
 ---
-
-class: top center hide_logo
 
 background-image: url(Jan15_Shazia-1.jpeg)
 background-size: contain
 
-
----  
-
 class: top center hide_logo
+
+---
 
 background-image: url(useR!2021.jpg)
 background-size: contain
 
-
+class: top center hide_logo
 
 ---
 
@@ -229,7 +224,21 @@ class: top hide_logo
 
 
 ---
+
+class: left top 
+
+### Take home
+
+1)	Your skills develop when you pay attention to what is meaningful to you!  <br><br/>
+2)	Your skills grow when you share them with others. <br><br/>
+3)  New technical tools will enhance your work.<br><br/> 
+
+
+---
+
+
 class: center top hide_logo
+
 background-image: url(Martens_lab_2021.jpg)
 background-position: 10% 70%, 20% 10%
 background-size: 625px
@@ -253,179 +262,3 @@ background-size: 625px
 
 
 
----
-
-# Left-Column Headings
-
-.left-column[
-## First
-
-## Second
-
-## Third
-]
-
-.right-column[
-Dolor quis aptent mus a dictum ultricies egestas.
-
-Amet egestas neque tempor fermentum proin massa!
-
-Dolor elementum fermentum pharetra lectus arcu pulvinar.
-]
-
-
-
----
-
-
-
----
-layout: true
-
-## Tables
-
----
-exclude: `r if (requireNamespace("tibble", quietly=TRUE)) "false" else "true"`
-
-```{r eval=requireNamespace("tibble", quietly=TRUE)}
-tibble::as_tibble(mtcars)
-```
-
----
-
-```{r}
-knitr::kable(head(mtcars), format = 'html')
-```
-
----
-exclude: `r if (requireNamespace("DT", quietly=TRUE)) "false" else "true"`
-
-```{r eval=requireNamespace("DT", quietly=TRUE)}
-DT::datatable(head(mtcars), fillContainer = FALSE, options = list(pageLength = 4))
-```
-
----
-layout: true
-
-## Lists
-
----
-
-.pull-left[
-#### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-]
-
-.pull-right[
-
-#### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-]
-
----
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
----
-
-### Nesting an ol in ul in an ol
-
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-  1. level 4 item (ol)
-  1. level 4 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-
----
-layout: true
-
-## Plots
-
-
----
-layout: false
-
-## Square image
-
-<center><img src="https://octodex.github.com/images/labtocat.png" height="400px" /></center>
-
-.footnote[GitHub Octocat]
-
----
-
-### Wide image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
-
-.footnote[Wide images scale to 100% slide width]
-
----
-
-## Two images
-
-.pull-left[
-![](https://octodex.github.com/images/motherhubbertocat.png)
-]
-
-.pull-right[
-![](https://octodex.github.com/images/dinotocat.png)
-]
-
----
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
----
-class: center, middle
-
-# Thanks!
-
-Slides created via the R packages:
-
-[**xaringan**](https://github.com/yihui/xaringan)<br>
-[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
-
-The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
