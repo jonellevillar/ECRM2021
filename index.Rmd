@@ -244,12 +244,12 @@ class: top hide_logo
 
 class: left top 
 
-### Take home
+### Take home message <br><br/>
 
 .enlarge[
-1.	Your skills develop when you pay attention to what is meaningful to you!  <br><br/>
-2.	Your skills grow when you share them with others. 🎁 <br><br/>
-3.  Allow technical tools to enhance your work and skill set. <br><br/> 
+- Your skills develop when you pay attention to what is meaningful to you! ❤️ <br><br/>
+-	Your skills grow when you share them with others. 🎁 <br><br/>
+- Allow technical tools to enhance your work and skill set. ⚡ ⚡⚡
 ]
 ---
 
