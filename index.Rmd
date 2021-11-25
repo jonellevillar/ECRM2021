@@ -183,16 +183,19 @@ background-size: contain
 
 class: hide_logo
 
-background-image: url(slides/Smigielski.png)
-background-position:cover
-background-size: 750px
+background-image: url(slides/Smigielski2.png)
+background-position:20%
+background-size: 565px
 
 .footnote[Smigielski, _et al_, Molecular Psychiatry, 2020]
 
 
 ## **Epigenetics**
 
+.pull-right[
 
+
+]
 
 ---
 
@@ -218,21 +221,22 @@ background-position: 15%
 ##New tools, <br>same methods?
 
 ---
-class: top center hide_logo
+class: middle hide_logo
 
 .pull-left[
-![](slides/R-LadiesGlobal.png)
+<img src="R-LadiesGlobal.png" style="width: 450%" />
+
 ]
 
 .pull-right[
 
-###Mission
+##Mission
 
-
-- Support gender diversity in the R-community
-- Promote programming potential 
-- Build a collaborative network 
-]
+.enlarge[
+- Support gender diversity <br> <br>
+- Promote programming potential <br> <br>
+- Build a collaborative network <br> <br>
+]]
 ---
 
 class: top center hide_logo
