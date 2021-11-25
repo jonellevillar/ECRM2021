@@ -69,10 +69,7 @@ style_duo(
 
 ```{r  include=FALSE }
 library(xaringanExtra)
-xaringanExtra::use_logo("slides/NORMENT_LOGO_Utekst_SORT.png",
-                        width = "350px",
-                        height = "350px",
-                        position = xaringanExtra::css_position(top = "2em", right = "2em"))
+
 
 xaringanExtra::use_tile_view() 
 
