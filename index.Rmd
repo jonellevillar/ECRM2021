@@ -95,7 +95,7 @@ xaringanExtra::use_tile_view()
 }
 
 ```
-
+---
 class: center top
 
 background-image: url(From_RN_2_R-Lady.jpg)
