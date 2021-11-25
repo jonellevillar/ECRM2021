@@ -70,11 +70,15 @@ style_duo(
 ```{r  include=FALSE }
 library(xaringanExtra)
 xaringanExtra::use_logo("slides/NORMENT_LOGO_Utekst_SORT.png",
-                        position = xaringanExtra::css_position(bottom = "15px", right = "25px"))
+                        width = "250px",
+                        height = "250px",
+                        position = xaringanExtra::css_position(top = "2em", right = "2em"))
 
 xaringanExtra::use_tile_view() 
 
 ```
+
+
 
 ```{css extra.css, echo=FALSE}
 
@@ -301,29 +305,6 @@ class: left top
 - Allow technical tools to enhance your work and skill set. ⚡ ⚡⚡
 ]
 ---
-
-class: center top hide_logo
-
-
-background-image: url(slides/Martens_lab_2021.jpg)
-background-position: 10% 70%, 20% 10%
-background-size: 625px
-
-# Acknowledgements
-
-.pull-right[
-**Supervisor Prof. Stéphanie Le Hellard**<br><br>
-**Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
-**Colleagues in The Martens Group**<br><br>
-**Dept. of Clinical Science II** <br><br><br>
-**NORMENT**<br><br>
-[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)
-]
-
-
-
----
-
 
 
 background-image: url(slides/Martens_lab_2021sm6.png)
