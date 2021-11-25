@@ -95,7 +95,9 @@ xaringanExtra::use_tile_view()
 }
 
 ```
+
 ---
+
 class: center top
 
 background-image: url(From_RN_2_R-Lady.jpg)
@@ -224,7 +226,7 @@ background-position: 15%
 class: middle hide_logo
 
 .pull-left[
-<img src="R-LadiesGlobal.png" style="width: 450%" />
+![](slides/R-LadiesGlobal.png)
 
 ]
 
@@ -271,19 +273,18 @@ class: top hide_logo
 
 ##  Check out R-Ladies on social media 
 
-- **Main webpage**:  http://rladies.org/<br>
+.bitty[
+- **Main webpage**:  http://rladies.org/<br> <br>
 - **Twitter**
-    - R-Ladies Bergen:  @RLadiesBergen<br>
-    - R-Ladies Global:  @RLadiesGlobal<br>
-    
-- **Facebook:**           R-Ladies-Bergen<br>
-- Sign up on **Meetup**:  https://meetup.com/rladies-bergen/<br>
-- **Slack** workspace:
-    - `rladies-norway` *(send us an e-mail to get the invitation!)*
-    - `rladies-community` https://rladies-community-slack.herokuapp.com/
+- **R-Ladies Bergen**
+[`r fa_i("twitter")` @RLadiesBergen](https://twitter.com/RLadiesBergen)]
+- **R-Ladies Global**    
+[`r fa_i("twitter")` @RLadiesGlobal](https://twitter.com/RLadiesGlobal)]    
 
-- **YouTube**: https://www.youtube.com/c/RLadiesGlobal/Videos<br>
-
+- **Facebook:**           R-Ladies-Bergen<br> <br>
+- Sign up on **Meetup**:  https://meetup.com/rladies-bergen/ <br><br>
+- **YouTube**: https://www.youtube.com/c/RLadiesGlobal/Videos
+]
 
 ---
 
@@ -321,6 +322,23 @@ background-size: 625px
 ---
 
 
+
+background-image: url(slides/Martens_lab_2021sm6.png)
+background-position: 12% 70%, 20% 10%
+background-size: 600px
+
+class: center, top
+
+# Acknowledgements
+
+.pull-right[
+**Supervisor Prof. Stéphanie Le Hellard**<br><br>
+**Co-Supervisor Dr. Anne-Kristin Stavrum**<br><br>
+**Colleagues in The Martens Group**<br><br>
+**Dept. of Clinical Science II** <br><br><br>
+**NORMENT** <br><br><br>
+
+[`r fa_i("twitter")` @jdvillar](https://twitter.com/jdvillar)]
 
 
 
