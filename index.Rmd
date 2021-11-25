@@ -181,7 +181,7 @@ background-position: 12%
 .center[.gray[.footnote[Blu, Rome, 2019]]
 ]
 
-##Be open <br> to technology
+##Be open to <br> technology
 
 ---
 
