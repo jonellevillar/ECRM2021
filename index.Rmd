@@ -165,32 +165,33 @@ background-size: cover
 
 ---
 class: top right hide_logo
-background-image: url(slides/hugh-laurie.jpg)
+background-image: url(slides/hugh-laurie2.jpg)
 background-size: %40
-background-position:
+background-position: 15%
 
-##Whose responsibility?
+##Whose <br> responsibility?
 ---
 
 class: top right hide_logo
 
 background-image: url(slides/2019b_Blu_Roma.jpg)
 background-size: contain
+background-position: 12%
 
 .center[.gray[.footnote[Blu, Rome, 2019]]
 ]
 
-##Be open to technology
+##Be open <br> to technology
 
 ---
 
-class: bottom right hide_logo
+class: top right hide_logo
 
 background-image: url(slides/newtools_old_ways.jpg)
 background-size: contain
+background-position: 15%
 
-
-##New tools - same methods?
+##New tools, <br>same methods?
 
 ---
 
